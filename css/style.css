@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  place-items: center;
+  height: 100%;
+  margin-top: 200px;
+}
+
+.blocks,
+.selectBlock {
+  width: 300px;
+  height: 300px;
+}
+
+.blocks:hover {
+  cursor: pointer;
+}
+
+#red {
+  background: red;
+}
+
+#orange {
+  background: orange;
+}
+
+#purple {
+  background: purple;
+}
+
+#selNew {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+#selNew:hover {
+  color: black;
+  cursor: pointer;
+}
